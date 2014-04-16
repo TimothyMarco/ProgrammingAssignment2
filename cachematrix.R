@@ -1,14 +1,14 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Functions to more efficiently work with matrices. Goal here is to be able to avoid having to repeatedly go through computationally-intesive process of inverting a large matrix if is hasn't changed.
 
-## Write a short comment describing this function
+
+## Create the the matrix with cache-capable inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
 
 }
 
 
-## Write a short comment describing this function
+## Check if the matrix has changed and calculate inverse if necessary. If the matrix has not changed, and cached version exists, return the cached version rather than re-calculating it.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
