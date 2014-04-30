@@ -23,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
   
   #store the solution to the matrix
   setsolution <-function(x) {
-    solution <<-x
+    solution <- function(solve) x <<-x
   }
   
   #get the solution of the matrix
